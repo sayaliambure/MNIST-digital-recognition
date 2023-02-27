@@ -5,5 +5,9 @@ Dataset is downloaded from existing datasets present in keras. Therefore, the da
 Total number of images of the digits: 70,000.
 The 2 dimension images is initially converted into 1 dimensional array.
 
+Using ANN:
 Model is trained with neural network using tensorflow and keras. 
 As the dataset is large enough, so less epochs also give good accuracy. Here, model is trained on 10 epochs.
+
+Using CNN:
+Conv2D and MaxPooling are used as convolution layers, then dense layer as fully connected layer is used.
